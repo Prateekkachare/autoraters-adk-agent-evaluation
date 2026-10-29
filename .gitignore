@@ -1,0 +1,13 @@
+# Environment variables and secrets
+.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.pytest_cache/
+
+# Large pre-generated analysis dataset (optional: keep baseline/hillclimb summaries or ignore large raw dumps)
+runs/geap_calls_and_responses_for_analysis.json
